@@ -27,7 +27,7 @@ class DetailListBackgroundView: UIView {
 }
 
 extension DetailListBackgroundView {
-    private func bind(_ viewModel: DetailListBackgroundViewModel) {
+    func bind(_ viewModel: DetailListBackgroundViewModel) {
         viewModel.isStatusLabelHidden
             .emit(to: statusLabel.rx.isHidden)
             .disposed(by: disposeBag)
