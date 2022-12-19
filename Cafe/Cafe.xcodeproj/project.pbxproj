@@ -23,6 +23,8 @@
 		66F8C7F529502A4C0073A170 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F429502A4C0073A170 /* OtherView.swift */; };
 		66F8C7F729502B090073A170 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F629502B090073A170 /* SettingMenu.swift */; };
 		66F8C7FA2950B8170073A170 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F92950B8170073A170 /* SettingView.swift */; };
+		66F8C7FE2950BA1D0073A170 /* Sample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7FD2950BA1D0073A170 /* Sample2.swift */; };
+		66F8C8002950BBF90073A170 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7FF2950BBF90073A170 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		66F8C7F429502A4C0073A170 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		66F8C7F629502B090073A170 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
 		66F8C7F92950B8170073A170 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		66F8C7FD2950BA1D0073A170 /* Sample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample2.swift; sourceTree = "<group>"; };
+		66F8C7FF2950BBF90073A170 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				66F8C7D1294F4F700073A170 /* Assets.xcassets */,
 				66F8C7D3294F4F700073A170 /* Preview Content */,
 				66F8C7F2295027D70073A170 /* Sample.swift */,
+				66F8C7FD2950BA1D0073A170 /* Sample2.swift */,
 			);
 			path = Cafe;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				66F8C7ED294FE2930073A170 /* HomeHeaderView.swift */,
 				66F8C7E1294F5DC60073A170 /* MenuSuggestionSectionView.swift */,
 				66F8C7E5294F61AD0073A170 /* EventSectionView.swift */,
+				66F8C7FF2950BBF90073A170 /* HomeViewModel.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -208,11 +214,13 @@
 				66F8C7DC294F529B0073A170 /* Tab.swift in Sources */,
 				66F8C7E6294F61AD0073A170 /* EventSectionView.swift in Sources */,
 				66F8C7D0294F4F6F0073A170 /* MainTabView.swift in Sources */,
+				66F8C8002950BBF90073A170 /* HomeViewModel.swift in Sources */,
 				66F8C7EE294FE2930073A170 /* HomeHeaderView.swift in Sources */,
 				66F8C7E4294F5DED0073A170 /* CoffeeMenu.swift in Sources */,
 				66F8C7CE294F4F6F0073A170 /* CafeApp.swift in Sources */,
 				66F8C7EC294FE2340073A170 /* HomeView.swift in Sources */,
 				66F8C7E8294F61E30073A170 /* Event.swift in Sources */,
+				66F8C7FE2950BA1D0073A170 /* Sample2.swift in Sources */,
 				66F8C7FA2950B8170073A170 /* SettingView.swift in Sources */,
 				66F8C7F1294FE9FC0073A170 /* User.swift in Sources */,
 				66F8C7F3295027D70073A170 /* Sample.swift in Sources */,

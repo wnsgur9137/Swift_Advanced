@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HomeHeaderView: View {
+    
+    @Binding var isNeedToReload: Bool
+    
     var body: some View {
         VStack(spacing: 16.0) {
             HStack(alignment: .top) {
@@ -18,7 +21,9 @@ struct HomeHeaderView: View {
                 .font(.largeTitle)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .fixedSize(horizontal: false, vertical: true)
-                Button(action: {}, label: {
+                Button(action: {
+                    isNeedToReload = true
+                }, label: {
                     Image(systemName: "arrow.2.circlepath")
                 })
                 .frame(alignment: .top)
@@ -50,8 +55,8 @@ struct HomeHeaderView: View {
     }///body
 }///HomeHeaderView
 
-struct HomeHeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeHeaderView()
-    }
-}
+//struct HomeHeaderView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeHeaderView()
+//    }
+//}
