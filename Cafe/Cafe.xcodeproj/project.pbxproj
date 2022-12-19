@@ -20,6 +20,9 @@
 		66F8C7EE294FE2930073A170 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7ED294FE2930073A170 /* HomeHeaderView.swift */; };
 		66F8C7F1294FE9FC0073A170 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F0294FE9FC0073A170 /* User.swift */; };
 		66F8C7F3295027D70073A170 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F2295027D70073A170 /* Sample.swift */; };
+		66F8C7F529502A4C0073A170 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F429502A4C0073A170 /* OtherView.swift */; };
+		66F8C7F729502B090073A170 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F629502B090073A170 /* SettingMenu.swift */; };
+		66F8C7FA2950B8170073A170 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8C7F92950B8170073A170 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		66F8C7ED294FE2930073A170 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		66F8C7F0294FE9FC0073A170 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		66F8C7F2295027D70073A170 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		66F8C7F429502A4C0073A170 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		66F8C7F629502B090073A170 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		66F8C7F92950B8170073A170 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 			children = (
 				66F8C7DD294F5D4E0073A170 /* Tab */,
 				66F8C7EF294FE2960073A170 /* HomeView */,
+				66F8C7F82950B8080073A170 /* OtherView */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -116,6 +123,16 @@
 				66F8C7E5294F61AD0073A170 /* EventSectionView.swift */,
 			);
 			path = HomeView;
+			sourceTree = "<group>";
+		};
+		66F8C7F82950B8080073A170 /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				66F8C7F429502A4C0073A170 /* OtherView.swift */,
+				66F8C7F629502B090073A170 /* SettingMenu.swift */,
+				66F8C7F92950B8170073A170 /* SettingView.swift */,
+			);
+			path = OtherView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +213,12 @@
 				66F8C7CE294F4F6F0073A170 /* CafeApp.swift in Sources */,
 				66F8C7EC294FE2340073A170 /* HomeView.swift in Sources */,
 				66F8C7E8294F61E30073A170 /* Event.swift in Sources */,
+				66F8C7FA2950B8170073A170 /* SettingView.swift in Sources */,
 				66F8C7F1294FE9FC0073A170 /* User.swift in Sources */,
 				66F8C7F3295027D70073A170 /* Sample.swift in Sources */,
+				66F8C7F729502B090073A170 /* SettingMenu.swift in Sources */,
 				66F8C7E2294F5DC60073A170 /* MenuSuggestionSectionView.swift in Sources */,
+				66F8C7F529502A4C0073A170 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
