@@ -17,6 +17,9 @@
 		6669F3812967B7F000DD9371 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3802967B7F000DD9371 /* TranslateViewController.swift */; };
 		6669F3832967BACC00DD9371 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3822967BACC00DD9371 /* UIColor+.swift */; };
 		6669F3862967DD5000DD9371 /* SourceTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3852967DD5000DD9371 /* SourceTextViewController.swift */; };
+		6669F3B4296BA2E000DD9371 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3B3296BA2E000DD9371 /* Language.swift */; };
+		6669F3B6296BA6B400DD9371 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3B5296BA6B400DD9371 /* Bookmark.swift */; };
+		6669F3B8296BA7C400DD9371 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6669F3B7296BA7C400DD9371 /* UserDefaults+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		6669F3802967B7F000DD9371 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		6669F3822967BACC00DD9371 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		6669F3852967DD5000DD9371 /* SourceTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTextViewController.swift; sourceTree = "<group>"; };
+		6669F3B3296BA2E000DD9371 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		6669F3B5296BA6B400DD9371 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		6669F3B7296BA7C400DD9371 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 				6669F36E2967B5CB00DD9371 /* Assets.xcassets */,
 				6669F3702967B5CB00DD9371 /* LaunchScreen.storyboard */,
 				6669F3732967B5CB00DD9371 /* Info.plist */,
+				6669F3B3296BA2E000DD9371 /* Language.swift */,
+				6669F3B5296BA6B400DD9371 /* Bookmark.swift */,
 			);
 			path = Translate;
 			sourceTree = "<group>";
@@ -88,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6669F3822967BACC00DD9371 /* UIColor+.swift */,
+				6669F3B7296BA7C400DD9371 /* UserDefaults+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,11 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6669F36A2967B5CA00DD9371 /* TabBarController.swift in Sources */,
+				6669F3B8296BA7C400DD9371 /* UserDefaults+.swift in Sources */,
 				6669F3812967B7F000DD9371 /* TranslateViewController.swift in Sources */,
 				6669F3662967B5CA00DD9371 /* AppDelegate.swift in Sources */,
+				6669F3B4296BA2E000DD9371 /* Language.swift in Sources */,
 				6669F3682967B5CA00DD9371 /* SceneDelegate.swift in Sources */,
 				6669F3862967DD5000DD9371 /* SourceTextViewController.swift in Sources */,
 				6669F3832967BACC00DD9371 /* UIColor+.swift in Sources */,
+				6669F3B6296BA6B400DD9371 /* Bookmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
