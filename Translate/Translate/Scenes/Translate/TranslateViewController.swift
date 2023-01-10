@@ -8,11 +8,6 @@
 import SnapKit
 import UIKit
 
-enum `Type` {
-    case source
-    case target
-}
-
 final class TranslateViewController: UIViewController {
     
     private var sourceLanguage: Language = .ko
@@ -139,7 +134,7 @@ private extension TranslateViewController {
             sourceLabel
         ].forEach { view.addSubview($0) }
         
-        let defaultSpacing: CGFloat = 16.0
+//        let defaultSpacing: CGFloat = 16.0
         
         buttonStackView.snp.makeConstraints {
             $0.top.equalTo(view.safeAreaLayoutGuide)

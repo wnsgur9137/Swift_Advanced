@@ -44,7 +44,7 @@ final class SourceTextViewController: UIViewController {
         
         view.addSubview(textView)
         textView.snp.makeConstraints {
-            $0.edges.equalToSuperview().inset(16.0)
+            $0.edges.equalToSuperview().inset(defaultSpacing)
         }
     }
 }
